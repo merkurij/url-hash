@@ -1,7 +1,12 @@
 # url-hash
 JavaScript class for easy url hash manipulations
 
-Simple example:
+**Installation:**
+
+```npm i simple-url-hash```
+
+**Simple example:**
+
 ```js
 import Hash from 'Hash';
 
