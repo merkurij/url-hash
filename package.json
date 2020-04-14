@@ -1,5 +1,5 @@
 {
-  "name": "url-hash",
+  "name": "simple-url-hash",
   "version": "1.0.0",
   "description": "Class for easy url hash manipulations",
   "main": "Hash.js",
