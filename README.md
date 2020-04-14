@@ -8,7 +8,7 @@ JavaScript class for easy url hash manipulations
 **Simple example:**
 
 ```js
-import Hash from 'Hash';
+import Hash from 'simple-url-hash';
 
 let urlHash = new Hash();                          
 urlHash.set("param1", "value1");
