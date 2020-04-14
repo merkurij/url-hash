@@ -47,10 +47,10 @@ class Hash {
         this._replaceHash();
     }
 
-    removeAll(removeParams) {
-        removeParams = (typeof(removeParams)=='string') ? [removeParams] : removeParams;
-        for (let i = 0; i < removeParams.length; i++) {
-            delete this._paramsObject[removeParams[i]];
+    removeAll(parameterNames) {
+        parameterNames = (typeof(parameterNames)=='string') ? [parameterNames] : parameterNames;
+        for (let i = 0; i < parameterNames.length; i++) {
+            delete this._paramsObject[parameterNames[i]];
         }
         this._replaceHash()
     }
